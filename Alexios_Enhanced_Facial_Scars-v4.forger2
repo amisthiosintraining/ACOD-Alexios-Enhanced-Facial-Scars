@@ -1,0 +1,286 @@
+{
+	"Format": "ForgerPatch2",
+	"GameEXE": "ACOdyssey",
+	"CollectionTitle": "Alexios Enhanced Facial Scars",
+	"CollectionVersion": 4,
+	"CollectionID": "AEFS_ilikedetectives_skylightglare",
+	"Patches": 
+	[
+		{
+			"PatchTitle": "Deimos Facial Scars (D)",
+			"PatchDescription": "Enhances facial scars with Deimos makeup (pale, black eye shadow)",
+			"PatchID": "ACD_CHM_PLA_Alexios_Deimos_Head_1024_DiffuseMap",
+			"PatchVersion": 2,
+			"Targets":
+			[
+				// 1309754698918 ACD_CHM_PLA_AlexiosHead_DiffuseMap
+				/************************************
+				 * Dimentions : 2048x1024
+				 * Compression : BC7(DX10)
+				 * Mipmaps
+				 * Size : 2,097,300 bytes (~2049 KB)
+				 ************************************/
+				{"File": "dlc_15/DataPC_ACD_Greece_15_dlc.forge", 	"Required": false, "FileID": 1309754698918, "Edits": [{"OffsetHex": "E2", "DataFileOffsetHex": "94", "DataFile": "AlexiosEnhancedFacialScars\\Deimos1024\\Alexios_Deimos_Head_DiffuseMap.dds"}]},
+				{"File": "dlc_32/DataPC_ACD_Elysium.forge", 	"Required": false, "FileID": 1309754698918, "Edits": [{"OffsetHex": "E2", "DataFileOffsetHex": "94", "DataFile": "AlexiosEnhancedFacialScars\\Deimos1024\\Alexios_Deimos_Head_DiffuseMap.dds"}]},
+				{"File": "dlc_33/DataPC_ACD_Underworld.forge", 	"Required": false, "FileID": 1309754698918, "Edits": [{"OffsetHex": "E2", "DataFileOffsetHex": "94", "DataFile": "AlexiosEnhancedFacialScars\\Deimos1024\\Alexios_Deimos_Head_DiffuseMap.dds"}]},
+				{"File": "dlc_34/DataPC_ACD_Atlantis.forge", 	"Required": false, "FileID": 1309754698918, "Edits": [{"OffsetHex": "E2", "DataFileOffsetHex": "94", "DataFile": "AlexiosEnhancedFacialScars\\Deimos1024\\Alexios_Deimos_Head_DiffuseMap.dds"}]},
+				{"File": "dlc_3/DataPC_3_dlc.forge", 	"Required": false, "FileID": 1309754698918, "Edits": [{"OffsetHex": "E2", "DataFileOffsetHex": "94", "DataFile": "AlexiosEnhancedFacialScars\\Deimos1024\\Alexios_Deimos_Head_DiffuseMap.dds"}]},
+				{"File": "dlc_43/DataPC_43_dlc.forge", 	"Required": false, "FileID": 1309754698918, "Edits": [{"OffsetHex": "E2", "DataFileOffsetHex": "94", "DataFile": "AlexiosEnhancedFacialScars\\Deimos1024\\Alexios_Deimos_Head_DiffuseMap.dds"}]},
+				{"File": "dlc_50/DataPC_50_dlc.forge", 	"Required": false, "FileID": 1309754698918, "Edits": [{"OffsetHex": "E2", "DataFileOffsetHex": "94", "DataFile": "AlexiosEnhancedFacialScars\\Deimos1024\\Alexios_Deimos_Head_DiffuseMap.dds"}]},
+				{"File": "dlc_50/DataPC_ACD_ThroneRoom.forge", 	"Required": false, "FileID": 1309754698918, "Edits": [{"OffsetHex": "E2", "DataFileOffsetHex": "94", "DataFile": "AlexiosEnhancedFacialScars\\Deimos1024\\Alexios_Deimos_Head_DiffuseMap.dds"}]},
+				{"File": "dlc_58/DataPC_58_dlc.forge", 	"Required": false, "FileID": 1309754698918, "Edits": [{"OffsetHex": "E2", "DataFileOffsetHex": "94", "DataFile": "AlexiosEnhancedFacialScars\\Deimos1024\\Alexios_Deimos_Head_DiffuseMap.dds"}]},
+				{"File": "dlc_58/DataPC_ACD_Connection.forge", 	"Required": false, "FileID": 1309754698918, "Edits": [{"OffsetHex": "E2", "DataFileOffsetHex": "94", "DataFile": "AlexiosEnhancedFacialScars\\Deimos1024\\Alexios_Deimos_Head_DiffuseMap.dds"}]},
+			]
+		},
+		{
+			"PatchTitle": "Alexios Enhanced Facial Scars (D)",
+			"PatchDescription": "Enhances facial scars on clean skin (original complexion)",
+			"PatchID": "ACD_CHM_PLA_Alexios_Head_Enhanced_Scars_1024_DiffuseMap",
+			"PatchVersion": 2,
+			"Targets": 
+			[	
+				// 1309754698918 ACD_CHM_PLA_AlexiosHead_DiffuseMap
+				/************************************
+				 * Dimentions : 2048x1024
+				 * Compression : BC7(DX10)
+				 * Mipmaps
+				 * Size : 2,097,300 bytes (~2049 KB)
+				 ************************************/
+				{"File": "dlc_15/DataPC_ACD_Greece_15_dlc.forge", 	"Required": false, "FileID": 1309754698918, "Edits": [{"OffsetHex": "E2", "DataFileOffsetHex": "94", "DataFile": "AlexiosEnhancedFacialScars\\Scars1024\\Alexios_Head_DiffuseMap.dds"}]},
+				{"File": "dlc_32/DataPC_ACD_Elysium.forge", 	"Required": false, "FileID": 1309754698918, "Edits": [{"OffsetHex": "E2", "DataFileOffsetHex": "94", "DataFile": "AlexiosEnhancedFacialScars\\Scars1024\\Alexios_Head_DiffuseMap.dds"}]},
+				{"File": "dlc_33/DataPC_ACD_Underworld.forge", 	"Required": false, "FileID": 1309754698918, "Edits": [{"OffsetHex": "E2", "DataFileOffsetHex": "94", "DataFile": "AlexiosEnhancedFacialScars\\Scars1024\\Alexios_Head_DiffuseMap.dds"}]},
+				{"File": "dlc_34/DataPC_ACD_Atlantis.forge", 	"Required": false, "FileID": 1309754698918, "Edits": [{"OffsetHex": "E2", "DataFileOffsetHex": "94", "DataFile": "AlexiosEnhancedFacialScars\\Scars1024\\Alexios_Head_DiffuseMap.dds"}]},
+				{"File": "dlc_3/DataPC_3_dlc.forge", 	"Required": false, "FileID": 1309754698918, "Edits": [{"OffsetHex": "E2", "DataFileOffsetHex": "94", "DataFile": "AlexiosEnhancedFacialScars\\Scars1024\\Alexios_Head_DiffuseMap.dds"}]},
+				{"File": "dlc_43/DataPC_43_dlc.forge", 	"Required": false, "FileID": 1309754698918, "Edits": [{"OffsetHex": "E2", "DataFileOffsetHex": "94", "DataFile": "AlexiosEnhancedFacialScars\\Scars1024\\Alexios_Head_DiffuseMap.dds"}]},
+				{"File": "dlc_50/DataPC_50_dlc.forge", 	"Required": false, "FileID": 1309754698918, "Edits": [{"OffsetHex": "E2", "DataFileOffsetHex": "94", "DataFile": "AlexiosEnhancedFacialScars\\Scars1024\\Alexios_Head_DiffuseMap.dds"}]},
+				{"File": "dlc_50/DataPC_ACD_ThroneRoom.forge", 	"Required": false, "FileID": 1309754698918, "Edits": [{"OffsetHex": "E2", "DataFileOffsetHex": "94", "DataFile": "AlexiosEnhancedFacialScars\\Scars1024\\Alexios_Head_DiffuseMap.dds"}]},
+				{"File": "dlc_58/DataPC_58_dlc.forge", 	"Required": false, "FileID": 1309754698918, "Edits": [{"OffsetHex": "E2", "DataFileOffsetHex": "94", "DataFile": "AlexiosEnhancedFacialScars\\Scars1024\\Alexios_Head_DiffuseMap.dds"}]},
+				{"File": "dlc_58/DataPC_ACD_Connection.forge", 	"Required": false, "FileID": 1309754698918, "Edits": [{"OffsetHex": "E2", "DataFileOffsetHex": "94", "DataFile": "AlexiosEnhancedFacialScars\\Scars1024\\Alexios_Head_DiffuseMap.dds"}]},
+			]
+		},
+		{
+			"PatchTitle": "Enhanced Facial Scars (Surface Skin) (N)",
+			"PatchDescription": "Makes surface facial scars on skin much more visible",
+			"PatchID": "ACD_CHM_PLA_Alexios_Head_Enhanced_Surface_Scars_NormalMap",
+			"PatchVersion": 2,
+			"Targets": 
+			[
+				// 1309754698922 ACD_CHM_PLA_AlexiosHead_NormalMap
+				/************************************
+				 * Dimentions : 2048x1024
+				 * Compression : BC7(DX10)
+				 * Mipmaps
+				 * Size : 2,097,300 bytes (~2049 KB)
+				 ************************************/
+				{"File": "dlc_15/DataPC_ACD_Greece_15_dlc.forge", 	"Required": false, "FileID": 1309754698922, "Edits": [{"OffsetHex": "E1", "DataFileOffsetHex": "94", "DataFile": "AlexiosEnhancedFacialScars\\SurfaceScars\\Alexios_Head_NormalMap.dds"}]},
+				{"File": "dlc_43/DataPC_43_dlc.forge", 	"Required": false, "FileID": 1309754698922, "Edits": [{"OffsetHex": "E1", "DataFileOffsetHex": "94", "DataFile": "AlexiosEnhancedFacialScars\\SurfaceScars\\Alexios_Head_NormalMap.dds"}]},
+				{"File": "dlc_43/DataPC_ACD_Greece_43_dlc.forge", 	"Required": false, "FileID": 1309754698922, "Edits": [{"OffsetHex": "E1", "DataFileOffsetHex": "94", "DataFile": "AlexiosEnhancedFacialScars\\SurfaceScars\\Alexios_Head_NormalMap.dds"}]},
+				{"File": "dlc_50/DataPC_50_dlc.forge", 	"Required": false, "FileID": 1309754698922, "Edits": [{"OffsetHex": "E1", "DataFileOffsetHex": "94", "DataFile": "AlexiosEnhancedFacialScars\\SurfaceScars\\Alexios_Head_NormalMap.dds"}]},
+				{"File": "dlc_58/DataPC_58_dlc.forge", 	"Required": false, "FileID": 1309754698922, "Edits": [{"OffsetHex": "E1", "DataFileOffsetHex": "94", "DataFile": "AlexiosEnhancedFacialScars\\SurfaceScars\\Alexios_Head_NormalMap.dds"}]},
+				{"File": "dlc_58/DataPC_ACD_Connection.forge", 	"Required": false, "FileID": 1309754698922, "Edits": [{"OffsetHex": "E1", "DataFileOffsetHex": "94", "DataFile": "AlexiosEnhancedFacialScars\\SurfaceScars\\Alexios_Head_NormalMap.dds"}]},
+			]
+		},
+		{
+			"PatchTitle": "Deimos Makeup (M)",
+			"PatchDescription": "Applies Deimos makeup on Alexios's face",
+			"PatchID": "ACD_CHM_PLA_Alexios_Deimos_Eye_Makeup_Mask1Map",
+			"PatchVersion": 2,	
+			"Targets": 
+			[
+				// 1391269503554 ACD_CHM_PLA_AlexiosHead_Mask1Map_TopMip_0
+				/************************************
+				 * Dimentions : 1024x1024
+				 * Compression : BC1(DXT1)
+				 * No mipmaps
+				 * Size : 524,416 bytes (~512 KB)
+				 ************************************/
+				{"File": "DataPC_SharedGroup_00.forge", 	"Required": false, "FileID": 1391269503554, "Edits": [{"OffsetHex": "47", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosEyeMakeup\\Alexios_Deimos_Head_Mask1Map_TopMip_0.dds"}]},
+				{"File": "dlc_15/DataPC_ACD_Greece_15_dlc.forge", 	"Required": false, "FileID": 1391269503554, "Edits": [{"OffsetHex": "47", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosEyeMakeup\\Alexios_Deimos_Head_Mask1Map_TopMip_0.dds"}]},
+				{"File": "dlc_21/DataPC_21_dlc.forge", 	"Required": false, "FileID": 1391269503554, "Edits": [{"OffsetHex": "47", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosEyeMakeup\\Alexios_Deimos_Head_Mask1Map_TopMip_0.dds"}]},
+				{"File": "dlc_23/DataPC_23_dlc.forge", 	"Required": false, "FileID": 1391269503554, "Edits": [{"OffsetHex": "47", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosEyeMakeup\\Alexios_Deimos_Head_Mask1Map_TopMip_0.dds"}]},
+				{"File": "dlc_34/DataPC_34_dlc.forge", 	"Required": false, "FileID": 1391269503554, "Edits": [{"OffsetHex": "47", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosEyeMakeup\\Alexios_Deimos_Head_Mask1Map_TopMip_0.dds"}]},
+				{"File": "dlc_3/DataPC_3_dlc.forge", 	"Required": false, "FileID": 1391269503554, "Edits": [{"OffsetHex": "47", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosEyeMakeup\\Alexios_Deimos_Head_Mask1Map_TopMip_0.dds"}]},
+				{"File": "dlc_43/DataPC_43_dlc.forge", 	"Required": false, "FileID": 1391269503554, "Edits": [{"OffsetHex": "47", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosEyeMakeup\\Alexios_Deimos_Head_Mask1Map_TopMip_0.dds"}]},
+				{"File": "dlc_43/DataPC_ACD_Greece_43_dlc.forge", 	"Required": false, "FileID": 1391269503554, "Edits": [{"OffsetHex": "47", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosEyeMakeup\\Alexios_Deimos_Head_Mask1Map_TopMip_0.dds"}]},
+				{"File": "dlc_50/DataPC_50_dlc.forge", 	"Required": false, "FileID": 1391269503554, "Edits": [{"OffsetHex": "47", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosEyeMakeup\\Alexios_Deimos_Head_Mask1Map_TopMip_0.dds"}]},
+				{"File": "dlc_52/DataPC_52_dlc.forge", 	"Required": false, "FileID": 1391269503554, "Edits": [{"OffsetHex": "47", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosEyeMakeup\\Alexios_Deimos_Head_Mask1Map_TopMip_0.dds"}]},
+				{"File": "dlc_58/DataPC_58_dlc.forge", 	"Required": false, "FileID": 1391269503554, "Edits": [{"OffsetHex": "47", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosEyeMakeup\\Alexios_Deimos_Head_Mask1Map_TopMip_0.dds"}]},
+				{"File": "dlc_58/DataPC_ACD_Connection.forge", 	"Required": false, "FileID": 1391269503554, "Edits": [{"OffsetHex": "47", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosEyeMakeup\\Alexios_Deimos_Head_Mask1Map_TopMip_0.dds"}]},
+
+				// 1391269503556 ACD_CHM_PLA_AlexiosHead_Mask1Map_TopMip_1
+				/************************************
+				 * Dimentions : 512x512
+				 * Compression : BC1(DXT1)
+				 * No mipmaps
+				 * Size : 131,200 bytes (~128 KB)
+				 ************************************/
+				{"File": "DataPC_SharedGroup_00.forge", 	"Required": false, "FileID": 1391269503556, "Edits": [{"OffsetHex": "47", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosEyeMakeup\\Alexios_Deimos_Head_Mask1Map_TopMip_1.dds"}]},
+				{"File": "dlc_15/DataPC_ACD_Greece_15_dlc.forge", 	"Required": false, "FileID": 1391269503556, "Edits": [{"OffsetHex": "47", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosEyeMakeup\\Alexios_Deimos_Head_Mask1Map_TopMip_1.dds"}]},
+				{"File": "dlc_21/DataPC_21_dlc.forge", 	"Required": false, "FileID": 1391269503556, "Edits": [{"OffsetHex": "47", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosEyeMakeup\\Alexios_Deimos_Head_Mask1Map_TopMip_1.dds"}]},
+				{"File": "dlc_23/DataPC_23_dlc.forge", 	"Required": false, "FileID": 1391269503556, "Edits": [{"OffsetHex": "47", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosEyeMakeup\\Alexios_Deimos_Head_Mask1Map_TopMip_1.dds"}]},
+				{"File": "dlc_34/DataPC_34_dlc.forge", 	"Required": false, "FileID": 1391269503556, "Edits": [{"OffsetHex": "47", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosEyeMakeup\\Alexios_Deimos_Head_Mask1Map_TopMip_1.dds"}]},
+				{"File": "dlc_3/DataPC_3_dlc.forge", 	"Required": false, "FileID": 1391269503556, "Edits": [{"OffsetHex": "47", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosEyeMakeup\\Alexios_Deimos_Head_Mask1Map_TopMip_1.dds"}]},
+				{"File": "dlc_43/DataPC_43_dlc.forge", 	"Required": false, "FileID": 1391269503556, "Edits": [{"OffsetHex": "47", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosEyeMakeup\\Alexios_Deimos_Head_Mask1Map_TopMip_1.dds"}]},
+				{"File": "dlc_43/DataPC_ACD_Greece_43_dlc.forge", 	"Required": false, "FileID": 1391269503556, "Edits": [{"OffsetHex": "47", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosEyeMakeup\\Alexios_Deimos_Head_Mask1Map_TopMip_1.dds"}]},
+				{"File": "dlc_50/DataPC_50_dlc.forge", 	"Required": false, "FileID": 1391269503556, "Edits": [{"OffsetHex": "47", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosEyeMakeup\\Alexios_Deimos_Head_Mask1Map_TopMip_1.dds"}]},
+				{"File": "dlc_52/DataPC_52_dlc.forge", 	"Required": false, "FileID": 1391269503556, "Edits": [{"OffsetHex": "47", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosEyeMakeup\\Alexios_Deimos_Head_Mask1Map_TopMip_1.dds"}]},
+				{"File": "dlc_58/DataPC_58_dlc.forge", 	"Required": false, "FileID": 1391269503556, "Edits": [{"OffsetHex": "47", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosEyeMakeup\\Alexios_Deimos_Head_Mask1Map_TopMip_1.dds"}]},
+				{"File": "dlc_58/DataPC_ACD_Connection.forge", 	"Required": false, "FileID": 1391269503556, "Edits": [{"OffsetHex": "47", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosEyeMakeup\\Alexios_Deimos_Head_Mask1Map_TopMip_1.dds"}]},				
+
+				// 1391269503550 ACD_CHM_PLA_AlexiosHead_Mask1Map
+				/************************************
+				 * Dimentions : 256x256
+				 * Compression : BC1(DXT1)
+				 * Mipmaps
+				 * Size : 43,832 bytes (~43 KB)
+				 ************************************/
+				{"File": "dlc_15/DataPC_ACD_Greece_15_dlc.forge", 	"Required": false, "FileID": 1391269503550, "Edits": [{"OffsetHex": "E0", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosEyeMakeup\\Alexios_Deimos_Head_Mask1Map.dds"}]},
+				{"File": "dlc_33/DataPC_ACD_Underworld.forge", 	"Required": false, "FileID": 1391269503550, "Edits": [{"OffsetHex": "E0", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosEyeMakeup\\Alexios_Deimos_Head_Mask1Map.dds"}]},
+				{"File": "dlc_32/DataPC_ACD_Elysium.forge", 	"Required": false, "FileID": 1391269503550, "Edits": [{"OffsetHex": "E0", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosEyeMakeup\\Alexios_Deimos_Head_Mask1Map.dds"}]},
+				{"File": "dlc_34/DataPC_34_dlc.forge", 	"Required": false, "FileID": 1391269503550, "Edits": [{"OffsetHex": "E0", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosEyeMakeup\\Alexios_Deimos_Head_Mask1Map.dds"}]},
+				{"File": "dlc_34/DataPC_ACD_Atlantis.forge", 	"Required": false, "FileID": 1391269503550, "Edits": [{"OffsetHex": "E0", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosEyeMakeup\\Alexios_Deimos_Head_Mask1Map.dds"}]},
+				{"File": "dlc_43/DataPC_43_dlc.forge", 	"Required": false, "FileID": 1391269503550, "Edits": [{"OffsetHex": "E0", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosEyeMakeup\\Alexios_Deimos_Head_Mask1Map.dds"}]},
+				{"File": "dlc_43/DataPC_ACD_Greece_43_dlc.forge", 	"Required": false, "FileID": 1391269503550, "Edits": [{"OffsetHex": "E0", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosEyeMakeup\\Alexios_Deimos_Head_Mask1Map.dds"}]},
+				{"File": "dlc_50/DataPC_50_dlc.forge", 	"Required": false, "FileID": 1391269503550, "Edits": [{"OffsetHex": "E0", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosEyeMakeup\\Alexios_Deimos_Head_Mask1Map.dds"}]},
+				{"File": "dlc_50/DataPC_ACD_ThroneRoom.forge", 	"Required": false, "FileID": 1391269503550, "Edits": [{"OffsetHex": "E0", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosEyeMakeup\\Alexios_Deimos_Head_Mask1Map.dds"}]},
+				{"File": "dlc_58/DataPC_58_dlc.forge", 	"Required": false, "FileID": 1391269503550, "Edits": [{"OffsetHex": "E0", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosEyeMakeup\\Alexios_Deimos_Head_Mask1Map.dds"}]},				
+				{"File": "dlc_58/DataPC_ACD_Connection.forge", 	"Required": false, "FileID": 1391269503550, "Edits": [{"OffsetHex": "E0", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosEyeMakeup\\Alexios_Deimos_Head_Mask1Map.dds"}]},								
+			]
+		},
+		{
+			"PatchTitle": "Heavy Eye Shadow (M)",
+			"PatchDescription": "Enhances Deimos eye makeup on Alexios's face",
+			"PatchID": "ACD_CHM_PLA_Alexios_Deimos_Heavy_Eye_Shadow_Mask1Map",
+			"PatchVersion": 2,	
+			"Targets": 
+			[
+				// 1391269503554 ACD_CHM_PLA_AlexiosHead_Mask1Map_TopMip_0
+				/************************************
+				 * Dimentions : 1024x1024
+				 * Compression : BC1(DXT1)
+				 * No mipmaps
+				 * Size : 524,416 bytes (~512 KB)
+				 ************************************/
+				{"File": "DataPC_SharedGroup_00.forge", 	"Required": false, "FileID": 1391269503554, "Edits": [{"OffsetHex": "47", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosHeavyEyeShadow\\Alexios_Deimos_Head_Mask1Map_TopMip_0.dds"}]},
+				{"File": "dlc_15/DataPC_ACD_Greece_15_dlc.forge", 	"Required": false, "FileID": 1391269503554, "Edits": [{"OffsetHex": "47", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosHeavyEyeShadow\\Alexios_Deimos_Head_Mask1Map_TopMip_0.dds"}]},
+				{"File": "dlc_21/DataPC_21_dlc.forge", 	"Required": false, "FileID": 1391269503554, "Edits": [{"OffsetHex": "47", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosHeavyEyeShadow\\Alexios_Deimos_Head_Mask1Map_TopMip_0.dds"}]},
+				{"File": "dlc_23/DataPC_23_dlc.forge", 	"Required": false, "FileID": 1391269503554, "Edits": [{"OffsetHex": "47", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosHeavyEyeShadow\\Alexios_Deimos_Head_Mask1Map_TopMip_0.dds"}]},
+				{"File": "dlc_34/DataPC_34_dlc.forge", 	"Required": false, "FileID": 1391269503554, "Edits": [{"OffsetHex": "47", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosHeavyEyeShadow\\Alexios_Deimos_Head_Mask1Map_TopMip_0.dds"}]},
+				{"File": "dlc_3/DataPC_3_dlc.forge", 	"Required": false, "FileID": 1391269503554, "Edits": [{"OffsetHex": "47", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosHeavyEyeShadow\\Alexios_Deimos_Head_Mask1Map_TopMip_0.dds"}]},
+				{"File": "dlc_43/DataPC_43_dlc.forge", 	"Required": false, "FileID": 1391269503554, "Edits": [{"OffsetHex": "47", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosHeavyEyeShadow\\Alexios_Deimos_Head_Mask1Map_TopMip_0.dds"}]},
+				{"File": "dlc_43/DataPC_ACD_Greece_43_dlc.forge", 	"Required": false, "FileID": 1391269503554, "Edits": [{"OffsetHex": "47", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosHeavyEyeShadow\\Alexios_Deimos_Head_Mask1Map_TopMip_0.dds"}]},
+				{"File": "dlc_50/DataPC_50_dlc.forge", 	"Required": false, "FileID": 1391269503554, "Edits": [{"OffsetHex": "47", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosHeavyEyeShadow\\Alexios_Deimos_Head_Mask1Map_TopMip_0.dds"}]},
+				{"File": "dlc_52/DataPC_52_dlc.forge", 	"Required": false, "FileID": 1391269503554, "Edits": [{"OffsetHex": "47", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosHeavyEyeShadow\\Alexios_Deimos_Head_Mask1Map_TopMip_0.dds"}]},
+				{"File": "dlc_58/DataPC_58_dlc.forge", 	"Required": false, "FileID": 1391269503554, "Edits": [{"OffsetHex": "47", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosHeavyEyeShadow\\Alexios_Deimos_Head_Mask1Map_TopMip_0.dds"}]},
+				{"File": "dlc_58/DataPC_ACD_Connection.forge", 	"Required": false, "FileID": 1391269503554, "Edits": [{"OffsetHex": "47", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosHeavyEyeShadow\\Alexios_Deimos_Head_Mask1Map_TopMip_0.dds"}]},
+
+				// 1391269503556 ACD_CHM_PLA_AlexiosHead_Mask1Map_TopMip_1
+				/************************************
+				 * Dimentions : 512x512
+				 * Compression : BC1(DXT1)
+				 * No mipmaps
+				 * Size : 131,200 bytes (~128 KB)
+				 ************************************/
+				{"File": "DataPC_SharedGroup_00.forge", 	"Required": false, "FileID": 1391269503556, "Edits": [{"OffsetHex": "47", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosHeavyEyeShadow\\Alexios_Deimos_Head_Mask1Map_TopMip_1.dds"}]},
+				{"File": "dlc_15/DataPC_ACD_Greece_15_dlc.forge", 	"Required": false, "FileID": 1391269503556, "Edits": [{"OffsetHex": "47", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosHeavyEyeShadow\\Alexios_Deimos_Head_Mask1Map_TopMip_1.dds"}]},
+				{"File": "dlc_21/DataPC_21_dlc.forge", 	"Required": false, "FileID": 1391269503556, "Edits": [{"OffsetHex": "47", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosHeavyEyeShadow\\Alexios_Deimos_Head_Mask1Map_TopMip_1.dds"}]},
+				{"File": "dlc_23/DataPC_23_dlc.forge", 	"Required": false, "FileID": 1391269503556, "Edits": [{"OffsetHex": "47", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosHeavyEyeShadow\\Alexios_Deimos_Head_Mask1Map_TopMip_1.dds"}]},
+				{"File": "dlc_34/DataPC_34_dlc.forge", 	"Required": false, "FileID": 1391269503556, "Edits": [{"OffsetHex": "47", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosHeavyEyeShadow\\Alexios_Deimos_Head_Mask1Map_TopMip_1.dds"}]},
+				{"File": "dlc_3/DataPC_3_dlc.forge", 	"Required": false, "FileID": 1391269503556, "Edits": [{"OffsetHex": "47", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosHeavyEyeShadow\\Alexios_Deimos_Head_Mask1Map_TopMip_1.dds"}]},
+				{"File": "dlc_43/DataPC_43_dlc.forge", 	"Required": false, "FileID": 1391269503556, "Edits": [{"OffsetHex": "47", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosHeavyEyeShadow\\Alexios_Deimos_Head_Mask1Map_TopMip_1.dds"}]},
+				{"File": "dlc_43/DataPC_ACD_Greece_43_dlc.forge", 	"Required": false, "FileID": 1391269503556, "Edits": [{"OffsetHex": "47", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosHeavyEyeShadow\\Alexios_Deimos_Head_Mask1Map_TopMip_1.dds"}]},
+				{"File": "dlc_50/DataPC_50_dlc.forge", 	"Required": false, "FileID": 1391269503556, "Edits": [{"OffsetHex": "47", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosHeavyEyeShadow\\Alexios_Deimos_Head_Mask1Map_TopMip_1.dds"}]},
+				{"File": "dlc_52/DataPC_52_dlc.forge", 	"Required": false, "FileID": 1391269503556, "Edits": [{"OffsetHex": "47", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosHeavyEyeShadow\\Alexios_Deimos_Head_Mask1Map_TopMip_1.dds"}]},
+				{"File": "dlc_58/DataPC_58_dlc.forge", 	"Required": false, "FileID": 1391269503556, "Edits": [{"OffsetHex": "47", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosHeavyEyeShadow\\Alexios_Deimos_Head_Mask1Map_TopMip_1.dds"}]},
+				{"File": "dlc_58/DataPC_ACD_Connection.forge", 	"Required": false, "FileID": 1391269503556, "Edits": [{"OffsetHex": "47", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosHeavyEyeShadow\\Alexios_Deimos_Head_Mask1Map_TopMip_1.dds"}]},				
+
+				// 1391269503550 ACD_CHM_PLA_AlexiosHead_Mask1Map
+				/************************************
+				 * Dimentions : 256x256
+				 * Compression : BC1(DXT1)
+				 * Mipmaps
+				 * Size : 43,832 bytes (~43 KB)
+				 ************************************/
+				{"File": "dlc_15/DataPC_ACD_Greece_15_dlc.forge", 	"Required": false, "FileID": 1391269503550, "Edits": [{"OffsetHex": "E0", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosHeavyEyeShadow\\Alexios_Deimos_Head_Mask1Map.dds"}]},
+				{"File": "dlc_33/DataPC_ACD_Underworld.forge", 	"Required": false, "FileID": 1391269503550, "Edits": [{"OffsetHex": "E0", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosHeavyEyeShadow\\Alexios_Deimos_Head_Mask1Map.dds"}]},
+				{"File": "dlc_32/DataPC_ACD_Elysium.forge", 	"Required": false, "FileID": 1391269503550, "Edits": [{"OffsetHex": "E0", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosHeavyEyeShadow\\Alexios_Deimos_Head_Mask1Map.dds"}]},
+				{"File": "dlc_34/DataPC_34_dlc.forge", 	"Required": false, "FileID": 1391269503550, "Edits": [{"OffsetHex": "E0", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosHeavyEyeShadow\\Alexios_Deimos_Head_Mask1Map.dds"}]},
+				{"File": "dlc_34/DataPC_ACD_Atlantis.forge", 	"Required": false, "FileID": 1391269503550, "Edits": [{"OffsetHex": "E0", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosHeavyEyeShadow\\Alexios_Deimos_Head_Mask1Map.dds"}]},
+				{"File": "dlc_43/DataPC_43_dlc.forge", 	"Required": false, "FileID": 1391269503550, "Edits": [{"OffsetHex": "E0", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosHeavyEyeShadow\\Alexios_Deimos_Head_Mask1Map.dds"}]},
+				{"File": "dlc_43/DataPC_ACD_Greece_43_dlc.forge", 	"Required": false, "FileID": 1391269503550, "Edits": [{"OffsetHex": "E0", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosHeavyEyeShadow\\Alexios_Deimos_Head_Mask1Map.dds"}]},
+				{"File": "dlc_50/DataPC_50_dlc.forge", 	"Required": false, "FileID": 1391269503550, "Edits": [{"OffsetHex": "E0", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosHeavyEyeShadow\\Alexios_Deimos_Head_Mask1Map.dds"}]},
+				{"File": "dlc_50/DataPC_ACD_ThroneRoom.forge", 	"Required": false, "FileID": 1391269503550, "Edits": [{"OffsetHex": "E0", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosHeavyEyeShadow\\Alexios_Deimos_Head_Mask1Map.dds"}]},
+				{"File": "dlc_58/DataPC_58_dlc.forge", 	"Required": false, "FileID": 1391269503550, "Edits": [{"OffsetHex": "E0", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosHeavyEyeShadow\\Alexios_Deimos_Head_Mask1Map.dds"}]},				
+				{"File": "dlc_58/DataPC_ACD_Connection.forge", 	"Required": false, "FileID": 1391269503550, "Edits": [{"OffsetHex": "E0", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosHeavyEyeShadow\\Alexios_Deimos_Head_Mask1Map.dds"}]},	
+			]
+		},
+		{
+			"PatchTitle": "Dark Heavy Eye Shadow (M)",
+			"PatchDescription": "Enhances Deimos eye makeup on Alexios's face, dark eye shadow",
+			"PatchID": "ACD_CHM_PLA_Alexios_Deimos_Heavy_Dark_Eye_Shadow_Mask1Map",
+			"PatchVersion": 2,
+			"Targets": 
+			[
+				// 1391269503554 ACD_CHM_PLA_AlexiosHead_Mask1Map_TopMip_0
+				/************************************
+				 * Dimentions : 1024x1024
+				 * Compression : BC1(DXT1)
+				 * No mipmaps
+				 * Size : 524,416 bytes (~512 KB)
+				 ************************************/
+				{"File": "DataPC_SharedGroup_00.forge", 	"Required": false, "FileID": 1391269503554, "Edits": [{"OffsetHex": "47", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosHeavyDarkEyeShadow\\Alexios_Deimos_Head_Mask1Map_TopMip_0.dds"}]},
+				{"File": "dlc_15/DataPC_ACD_Greece_15_dlc.forge", 	"Required": false, "FileID": 1391269503554, "Edits": [{"OffsetHex": "47", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosHeavyDarkEyeShadow\\Alexios_Deimos_Head_Mask1Map_TopMip_0.dds"}]},
+				{"File": "dlc_21/DataPC_21_dlc.forge", 	"Required": false, "FileID": 1391269503554, "Edits": [{"OffsetHex": "47", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosHeavyDarkEyeShadow\\Alexios_Deimos_Head_Mask1Map_TopMip_0.dds"}]},
+				{"File": "dlc_23/DataPC_23_dlc.forge", 	"Required": false, "FileID": 1391269503554, "Edits": [{"OffsetHex": "47", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosHeavyDarkEyeShadow\\Alexios_Deimos_Head_Mask1Map_TopMip_0.dds"}]},
+				{"File": "dlc_34/DataPC_34_dlc.forge", 	"Required": false, "FileID": 1391269503554, "Edits": [{"OffsetHex": "47", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosHeavyDarkEyeShadow\\Alexios_Deimos_Head_Mask1Map_TopMip_0.dds"}]},
+				{"File": "dlc_3/DataPC_3_dlc.forge", 	"Required": false, "FileID": 1391269503554, "Edits": [{"OffsetHex": "47", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosHeavyDarkEyeShadow\\Alexios_Deimos_Head_Mask1Map_TopMip_0.dds"}]},
+				{"File": "dlc_43/DataPC_43_dlc.forge", 	"Required": false, "FileID": 1391269503554, "Edits": [{"OffsetHex": "47", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosHeavyDarkEyeShadow\\Alexios_Deimos_Head_Mask1Map_TopMip_0.dds"}]},
+				{"File": "dlc_43/DataPC_ACD_Greece_43_dlc.forge", 	"Required": false, "FileID": 1391269503554, "Edits": [{"OffsetHex": "47", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosHeavyDarkEyeShadow\\Alexios_Deimos_Head_Mask1Map_TopMip_0.dds"}]},
+				{"File": "dlc_50/DataPC_50_dlc.forge", 	"Required": false, "FileID": 1391269503554, "Edits": [{"OffsetHex": "47", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosHeavyDarkEyeShadow\\Alexios_Deimos_Head_Mask1Map_TopMip_0.dds"}]},
+				{"File": "dlc_52/DataPC_52_dlc.forge", 	"Required": false, "FileID": 1391269503554, "Edits": [{"OffsetHex": "47", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosHeavyDarkEyeShadow\\Alexios_Deimos_Head_Mask1Map_TopMip_0.dds"}]},
+				{"File": "dlc_58/DataPC_58_dlc.forge", 	"Required": false, "FileID": 1391269503554, "Edits": [{"OffsetHex": "47", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosHeavyDarkEyeShadow\\Alexios_Deimos_Head_Mask1Map_TopMip_0.dds"}]},
+				{"File": "dlc_58/DataPC_ACD_Connection.forge", 	"Required": false, "FileID": 1391269503554, "Edits": [{"OffsetHex": "47", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosHeavyDarkEyeShadow\\Alexios_Deimos_Head_Mask1Map_TopMip_0.dds"}]},
+
+				// 1391269503556 ACD_CHM_PLA_AlexiosHead_Mask1Map_TopMip_1
+				/************************************
+				 * Dimentions : 512x512
+				 * Compression : BC1(DXT1)
+				 * No mipmaps
+				 * Size : 131,200 bytes (~128 KB)
+				 ************************************/
+				{"File": "DataPC_SharedGroup_00.forge", 	"Required": false, "FileID": 1391269503556, "Edits": [{"OffsetHex": "47", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosHeavyDarkEyeShadow\\Alexios_Deimos_Head_Mask1Map_TopMip_1.dds"}]},
+				{"File": "dlc_15/DataPC_ACD_Greece_15_dlc.forge", 	"Required": false, "FileID": 1391269503556, "Edits": [{"OffsetHex": "47", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosHeavyDarkEyeShadow\\Alexios_Deimos_Head_Mask1Map_TopMip_1.dds"}]},
+				{"File": "dlc_21/DataPC_21_dlc.forge", 	"Required": false, "FileID": 1391269503556, "Edits": [{"OffsetHex": "47", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosHeavyDarkEyeShadow\\Alexios_Deimos_Head_Mask1Map_TopMip_1.dds"}]},
+				{"File": "dlc_23/DataPC_23_dlc.forge", 	"Required": false, "FileID": 1391269503556, "Edits": [{"OffsetHex": "47", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosHeavyDarkEyeShadow\\Alexios_Deimos_Head_Mask1Map_TopMip_1.dds"}]},
+				{"File": "dlc_34/DataPC_34_dlc.forge", 	"Required": false, "FileID": 1391269503556, "Edits": [{"OffsetHex": "47", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosHeavyDarkEyeShadow\\Alexios_Deimos_Head_Mask1Map_TopMip_1.dds"}]},
+				{"File": "dlc_3/DataPC_3_dlc.forge", 	"Required": false, "FileID": 1391269503556, "Edits": [{"OffsetHex": "47", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosHeavyDarkEyeShadow\\Alexios_Deimos_Head_Mask1Map_TopMip_1.dds"}]},
+				{"File": "dlc_43/DataPC_43_dlc.forge", 	"Required": false, "FileID": 1391269503556, "Edits": [{"OffsetHex": "47", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosHeavyDarkEyeShadow\\Alexios_Deimos_Head_Mask1Map_TopMip_1.dds"}]},
+				{"File": "dlc_43/DataPC_ACD_Greece_43_dlc.forge", 	"Required": false, "FileID": 1391269503556, "Edits": [{"OffsetHex": "47", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosHeavyDarkEyeShadow\\Alexios_Deimos_Head_Mask1Map_TopMip_1.dds"}]},
+				{"File": "dlc_50/DataPC_50_dlc.forge", 	"Required": false, "FileID": 1391269503556, "Edits": [{"OffsetHex": "47", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosHeavyDarkEyeShadow\\Alexios_Deimos_Head_Mask1Map_TopMip_1.dds"}]},
+				{"File": "dlc_52/DataPC_52_dlc.forge", 	"Required": false, "FileID": 1391269503556, "Edits": [{"OffsetHex": "47", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosHeavyDarkEyeShadow\\Alexios_Deimos_Head_Mask1Map_TopMip_1.dds"}]},
+				{"File": "dlc_58/DataPC_58_dlc.forge", 	"Required": false, "FileID": 1391269503556, "Edits": [{"OffsetHex": "47", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosHeavyDarkEyeShadow\\Alexios_Deimos_Head_Mask1Map_TopMip_1.dds"}]},
+				{"File": "dlc_58/DataPC_ACD_Connection.forge", 	"Required": false, "FileID": 1391269503556, "Edits": [{"OffsetHex": "47", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosHeavyDarkEyeShadow\\Alexios_Deimos_Head_Mask1Map_TopMip_1.dds"}]},				
+
+				// 1391269503550 ACD_CHM_PLA_AlexiosHead_Mask1Map
+				/************************************
+				 * Dimentions : 256x256
+				 * Compression : BC1(DXT1)
+				 * Mipmaps
+				 * Size : 43,832 bytes (~43 KB)
+				 ************************************/
+				{"File": "dlc_15/DataPC_ACD_Greece_15_dlc.forge", 	"Required": false, "FileID": 1391269503550, "Edits": [{"OffsetHex": "E0", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosHeavyDarkEyeShadow\\Alexios_Deimos_Head_Mask1Map.dds"}]},
+				{"File": "dlc_33/DataPC_ACD_Underworld.forge", 	"Required": false, "FileID": 1391269503550, "Edits": [{"OffsetHex": "E0", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosHeavyDarkEyeShadow\\Alexios_Deimos_Head_Mask1Map.dds"}]},
+				{"File": "dlc_32/DataPC_ACD_Elysium.forge", 	"Required": false, "FileID": 1391269503550, "Edits": [{"OffsetHex": "E0", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosHeavyDarkEyeShadow\\Alexios_Deimos_Head_Mask1Map.dds"}]},
+				{"File": "dlc_34/DataPC_34_dlc.forge", 	"Required": false, "FileID": 1391269503550, "Edits": [{"OffsetHex": "E0", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosHeavyDarkEyeShadow\\Alexios_Deimos_Head_Mask1Map.dds"}]},
+				{"File": "dlc_34/DataPC_ACD_Atlantis.forge", 	"Required": false, "FileID": 1391269503550, "Edits": [{"OffsetHex": "E0", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosHeavyDarkEyeShadow\\Alexios_Deimos_Head_Mask1Map.dds"}]},
+				{"File": "dlc_43/DataPC_43_dlc.forge", 	"Required": false, "FileID": 1391269503550, "Edits": [{"OffsetHex": "E0", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosHeavyDarkEyeShadow\\Alexios_Deimos_Head_Mask1Map.dds"}]},
+				{"File": "dlc_43/DataPC_ACD_Greece_43_dlc.forge", 	"Required": false, "FileID": 1391269503550, "Edits": [{"OffsetHex": "E0", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosHeavyDarkEyeShadow\\Alexios_Deimos_Head_Mask1Map.dds"}]},
+				{"File": "dlc_50/DataPC_50_dlc.forge", 	"Required": false, "FileID": 1391269503550, "Edits": [{"OffsetHex": "E0", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosHeavyDarkEyeShadow\\Alexios_Deimos_Head_Mask1Map.dds"}]},
+				{"File": "dlc_50/DataPC_ACD_ThroneRoom.forge", 	"Required": false, "FileID": 1391269503550, "Edits": [{"OffsetHex": "E0", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosHeavyDarkEyeShadow\\Alexios_Deimos_Head_Mask1Map.dds"}]},
+				{"File": "dlc_58/DataPC_58_dlc.forge", 	"Required": false, "FileID": 1391269503550, "Edits": [{"OffsetHex": "E0", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosHeavyDarkEyeShadow\\Alexios_Deimos_Head_Mask1Map.dds"}]},				
+				{"File": "dlc_58/DataPC_ACD_Connection.forge", 	"Required": false, "FileID": 1391269503550, "Edits": [{"OffsetHex": "E0", "DataFileOffsetHex": "80", "DataFile": "AlexiosEnhancedFacialScars\\DeimosHeavyDarkEyeShadow\\Alexios_Deimos_Head_Mask1Map.dds"}]},	
+
+			]
+		}
+	]
+}				
