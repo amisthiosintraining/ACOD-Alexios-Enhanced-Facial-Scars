@@ -1,4 +1,4 @@
-# Alexios-Enhanced-Facial-Scars
+# ACOD | Alexios Enhanced Facial Scars
 
 Same idea as Kassandra's Enhanced Facial Scars, this mod enhances Alexios's facial scars, and applies Deimos assets.
 
