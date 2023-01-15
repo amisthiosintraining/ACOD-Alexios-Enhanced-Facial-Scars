@@ -2,10 +2,12 @@
 
 Same idea as Kassandra's Enhanced Facial Scars, this mod enhances Alexios's facial scars, and applies Deimos assets.
 
+<img src="https://imgur.com/FmDEbFu.png">
+
 ________________
 
 **REQUIREMENTS**
-- Forger 2.10 Utility by hypermorphic >> https://www.nexusmods.com/assassinscreedodyssey/mods/42
+- <a href="https://www.nexusmods.com/assassinscreedodyssey/mods/42">Forger 2.10 Utility</a> by hypermorphic
 - AlexiosEnhancedFacialScars folder
 - Alexios_Enhanced_Facial_Scars.forger2
 
@@ -17,6 +19,7 @@ ________________
 5) Select your options, close forger, and boot up the game.
 
 **TROUBLESHOOTING**
+
 Should you encounter a problem installing the mod, click on Reset All Forges in Forger and verify your game files. You may have to do this more than once.
 
 **UBISOFT CONNECT**
